@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 상담 챗봇</title>
+</head>
+<body>
+    <h1>AI 상담 챗봇</h1>
+    <div>
+        <textarea id="userInput" placeholder="상담 내용을 입력하세요"></textarea>
+    </div>
+    <div>
+        <button onclick="getResponse()">상담하기</button>
+    </div>
+    <div>
+        <h2>답변:</h2>
+        <p id="responseOutput"></p>
+    </div>
+    <div>
+        <h2>상담 내용 메모장:</h2>
+        <textarea id="memo" placeholder="여기에 상담 내용이 나타납니다" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
